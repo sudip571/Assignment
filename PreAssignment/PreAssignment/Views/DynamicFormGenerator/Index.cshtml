@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<input id="dynamicFormBUtton" type="button" class="btn btn-primary" value="Click to generate form"/>
+
+<form id="dform">
+   
+</form>
+
+
+<script src="~/Scripts/dynamicForm.js"></script>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+     $("#dynamicFormBUtton").click(function () {       
+         generate();       
+     });    
+    
+    function generate() {
+        
+        $.ajax({
+            url: '/DynamicFormGenerator/GetDynamicForm',
+            type: 'GET',
+           // data: { clientId: CLIENTID },
+            success: function (data) {
+                console.log(data);
+                generateDynForm(data,"dform")
+            },
+            error: function (xhr, textStatus, error) {               
+                console.log("Error occured ");
+            }
+        });
+    }
+    
+    $(document).on("click", "#formSubmit", function (e) {
+        e.preventDefault();
+        alert("Dynamic form generated.");
+    });
+</script>
+

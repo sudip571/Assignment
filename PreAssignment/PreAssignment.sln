@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreAssignment", "PreAssignment\PreAssignment.csproj", "{31C483ED-9C53-4F46-A9C5-6F797CAC3AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuService", "HerokuService\HerokuService.csproj", "{0B58DC65-D169-4971-B062-6B6B26F8467F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C483ED-9C53-4F46-A9C5-6F797CAC3AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C483ED-9C53-4F46-A9C5-6F797CAC3AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C483ED-9C53-4F46-A9C5-6F797CAC3AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C483ED-9C53-4F46-A9C5-6F797CAC3AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B58DC65-D169-4971-B062-6B6B26F8467F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B58DC65-D169-4971-B062-6B6B26F8467F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B58DC65-D169-4971-B062-6B6B26F8467F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B58DC65-D169-4971-B062-6B6B26F8467F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B06F8D0-A03D-462E-9478-F52EC852FCD0}
+	EndGlobalSection
+EndGlobal
